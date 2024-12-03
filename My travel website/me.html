@@ -1,0 +1,225 @@
+<nav class="nav-list bg-dark">
+    <div class="nav-bar">
+        <div class="nav m-2">
+            <p class="text-primary p-lg-4 fw-normal fw-semibold fw-bold">Quick<b class="text-white">Travel</b></p>
+        </div>
+        <div class="nav-menu d-none d-lg-flex d-md-flex gap-5">
+            <a href="#" class="text-decoration-none text-primary p-md-4 p-lg-4 fw-normal fw-semibold fw-bold">detination</a>
+            <a href="#" class="text-decoration-none text-primary p-md-4 p-lg-4 fw-normal fw-semibold fw-bold">itineraries</a>
+            <a href="#" class="text-decoration-none text-primary p-md-4 p-lg-4 fw-normal fw-semibold fw-bold">blog</a>
+            <a href="#" class="text-decoration-none text-primary p-md-4 p-lg-4 fw-normal fw-semibold fw-bold">contact us</a>
+        </div>
+        <div class="nav-item m-2 d-flex">
+            <a href="./login.html" class="text-white  p-md-4 p-lg-4 fw-normal fw-semibold fw-bold"><i class="bi bi-person-circle"></i></a>
+            <a href="#" class="text-white  p-md-4 p-lg-4 fw-normal fw-semibold fw-bold d-lg-none d-block" class="btn btn-dark" data-bs-toggle="offcanvas" data-bs-target="#demo"><i class="bi bi-list"></i></a>
+        </div>
+    </div>
+</nav>
+
+
+<div class=" img-name col-md-3">
+  <div class="image ">
+    <img src="image/wine.jpeg" alt="small image" class="pic mb-4" width="300" height="250">
+    <a href="#" class=" texts-overlay">5 wine trip to take when you are not a <br> wine pro
+    </a>
+    <div class="image">
+      <img src="image/res3.jpeg" alt="restaurant" class="pic" width="300" height="250">
+      <a href="#" class="text-overlay">7 celebrity-owned restaurants in LA to <br> try more</a>
+    </div>
+  </div>
+
+<div class="swiper mt-3">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img src="image/pexels-pixabay-38238.jpg" alt="img"  height="1000">
+      </div>
+      <div class="swiper-slide">
+        <img src="image/pexels-ollivves-1056497.jpg" alt="img"  height="1000">
+      </div>
+      <div class="swiper-slide">
+        <img src="./image/pexels-ronrov-26872211.jpg" alt="img" height="1000">
+      </div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+
+
+
+
+
+  <div class="img-list">
+    <div class="row w-100">
+      <div class="local col-md-3">
+        <img src="image/korea.jpeg" alt="" width="130" height="100">
+        <a href="#">unveiling local treasures of korea in autumn</a>
+      </div>
+
+      <div class="local col-md-3">
+        <img src="image/dishes.jpg" alt="" width="130" height="100">
+        <a href="#">10 dishes you nmust try im madrid </a>
+      </div>
+
+      <div class="local col-md-3">
+        <img src="image/anthens.jpg" alt="" width="130" height="100">
+        <a href="#">how to eat your way around anthens</a>
+      </div>
+
+      <div class="local col-md-3">
+        <img src="image/paris.jpg" alt="" width="130" height="100">
+        <a href="#">where the best paris chef go on their day off</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <section class="m-5 p-lg-5 text-center">
+    <p class="text-dark fw-bold">Welcome to quicktravel</p>
+    <p class="text-dark fw-bold">We're thrilled that you're exploring the world with us.
+     Whether you have a question about your next adventure,need assistance with booking,
+     or just want to share your travel experiences, we're here to help.
+     Our team is dedicated to making your travel journey as smooth adventure joyable as possible. Don't 
+     hesitate to reach out. <br> we'd love to hear from you!
+    </p>
+</section>
+        <div class="contain d-flex justify-content-around align-items-center">
+             <div class="contact-info">
+                 <b>Contact us</b>
+                 <h4>Get in touch</h4>
+               <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p>km 19 Lekki-Epe Expressway,Lekki,Lagos,Nigeria</p>
+               </div>
+               <div class="info-item d-flex align-items-center">
+                 <i class="bi bi-telephone-fill"></i>
+                 <p>+234 913 234 8864</p>
+               </div>
+               <div class="info-item d-flex align-items-center">
+                 <i class="bi bi-envelope"></i>
+                 <p>quicktravel.com</p>
+               </div>
+             </div>
+          <div class="contact-form bg-light">
+               <form id="form" onsubmit="handleSubmit (event)">
+                 <p class="text-center fw-bold text-dark">Write us a Message</p>
+                <div class="form-list mb-2">
+                 <label for="fname" class="">Name</label>
+                 <input type="text" name="fname" id="fname" class="d-block rounded-pill pe-5" placeholder="Your Name">
+                </div>    
+                <div class="form-list mb-2">
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email" class="d-block rounded-pill pe-5" placeholder="Your Email">
+                </div>
+                <div class="form-list mb-2">
+                   <label for="Message">Message</label>
+                   <textarea name="msg" id="msg" class="d-block pe-5">Your Question</textarea>
+                </div>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+         </div>    
+       </div>
+       <div class="map-container">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d53882663.14759497!2d-12.41629323724189!3d9.033872999999994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0baf7da48d0d%3A0x99a8fe4168c50bc8!2sNigeria!5e1!3m2!1sen!2sng!4v1724332629110!5m2!1sen!2sng"
+          width="600"
+           height="450" 
+           style="border:0;"
+            allowfullscreen="" 
+            loading="lazy"
+            
+            referrerpolicy="no-referrer-when-downgrade">
+           </iframe>
+       </div>
+
+       <footer class="row bg-dark">
+
+         <div class="footer-menu row col-12 text-center text-white  p-3">
+           <div class="footer-head">
+             <i class="bi bi-globe text-white fw-bold"></i>
+             <span class="text-primary">Quick</span>Travel
+           </div>
+           <div class="footer-text">
+             <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, repellendus. Explicabo sequi impedit, <br> magnam numquam quo reprehenderit quaerat dignissimos consectetur et neque mollitia, error, quae in. <br> Repellendus error repellat officiis!</p>
+           </div>
+         </div>
+
+         <div class="footer-menu row">
+             <div class="footer-head col-md-4 ps-5">
+               <b class="text-white">Quick lines</b> 
+               <ul class="list-unstyled pt-3">
+                 <li><a href="#" class="text-decoration-none text-white fw-bold">About us</a></li>
+                 <li><a href="#" class="text-decoration-none text-white fw-bold">Destination</a></li>
+                 <li><a href="#" class="text-decoration-none text-white fw-bold">Packages</a></li>
+                 <li><a href="#" class="text-decoration-none text-white fw-bold">Contact us</a></li>
+               </ul>
+         </div>
+
+         <div class="footer-menu col-md-4 ps-5">
+             <b class="text-white">informations</b> <hr class="text-white">
+            <ul class="list-unstyled pt-3">
+             <li><a href="#" class="text-decoration-none text-white fw-bold">Terms & Conditions</a></li>
+             <li><a href="#" class="text-decoration-none text-white fw-bold">FAQS</a></li>
+            </ul>
+         </div>
+
+         <div class="footer-menu col-md-4 ps-5">
+             <b class="text-white">get in touch</b> 
+           <div class="pt-3">
+             <div class="footer-list">
+               <i class="bi bi-geo-alt-fill"></i>
+               <p>km 19 Lekki-Epe Expressway,Lekki,Lagos,Nigeria</p>
+             </div>   
+             <div class="footer-list">
+               <i class="bi bi-telephone-fill"></i>
+               <p>+234 913 234 8864</p>
+             </div>
+             <div class="footer-list">
+               <i class="bi bi-envelope"></i>
+               <p>quicktravel.com</p>
+             </div>
+           </div>
+           </div>
+         </div>
+         <div class="footer-icon gap-5 pb-3">
+           <a href="$"><i class="bi bi-facebook"></i></a>
+           <a href="#"><i class="bi bi-twitter-x"></i></a>
+           <a href="#"><i class="bi bi-instagram"></i></a>
+           <a href="#"><i class="bi bi-google"></i></a>
+          </div>
+     </footer>
+ <script src="./contact.js"></script>
+ <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
+<div class="footer-icon d-flex justify-content-center pb-3 mt-5">
+
+
+
+
+
+  <div class=" col-md-2 mt-3 mb-3 form-check">
+    <input type="checkbox" name="" id="direct-flight" class="form-check-input">
+    <label for="direct-flight" class="form-check-label fw-bold">Direct flight only</label>
+ </div>
+<!-- / adult class type payment -->
+<div class="row">
+ <div class="mb-3">
+      <div class="col-md-4">
+          <label for="adult" class="form-label">Adults</label>
+      </div>
+ </div>
+</div>
+
+
+

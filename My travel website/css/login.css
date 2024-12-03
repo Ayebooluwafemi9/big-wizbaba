@@ -1,0 +1,35 @@
+.form{
+  margin: auto;
+  margin-top: 8rem;
+}
+body{
+  background-image: url(../image/adventure.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: hsla(0, 0%, 0%, 0.9);
+  background-blend-mode: multiply;
+}
+.reg-link{
+  margin-left: 20px;
+}
+.brand{
+  font-size: 16px;
+  font-weight: 550;
+}
+.brand span{
+  font-size: 18px;
+  font-weight: 550;
+}
+.email{
+  position: relative;
+}
+.email i{
+  position: absolute;
+  top: 5px;
+  bottom: 0;
+  right: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+

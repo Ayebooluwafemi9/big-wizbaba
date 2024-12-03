@@ -1,0 +1,252 @@
+.img-text:hover{
+    padding: 0;
+    margin: 0;
+  }
+  .img-text{
+    width: auto;
+    max-height: 370px;
+  }
+  .img-link{
+    position: absolute;
+    top: 18rem;
+  }
+  .img-link a{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  .img-name{
+    padding-top: 30px;
+    /* padding: 30px; */
+    margin: 30px;
+  }
+  .pic{
+    width: 150px;
+    height: 100px;
+  }
+  .img-list{
+    padding: 0;
+  }
+
+
+
+
+
+
+
+
+.me{
+  top: 7.5rem;
+  left: 10px;
+}
+
+
+  header{
+    background-image: url(../image/pexels-pixabay-268533.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-height: 300vh; */
+}
+.nav-item{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    color: aqua !important;
+}
+.active{
+    border-bottom: 2px solid aqua;
+    color: aqua !important;
+}
+.accountBtn1 i{
+     font-size: 20px;
+}
+.accountBtn2{
+    display: none;
+}
+section p{
+   font-size: 30px;
+   display: block;
+   animation-name: place;
+   animation-timing-function: linear;
+   animation-duration: 3s;
+   animation-delay: 1s;
+   animation-iteration-count: 1;
+}
+.contain{
+    padding: 20px;
+}
+.contact-info, .contact-form{
+    margin: 0 10px;
+}
+.contact-info{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-info b{
+    font-size: 24px;
+    font-weight: 700;
+}
+.contact-info h4{
+    font-size: 17px;
+    font-weight: 400;
+}
+.info-item{
+    margin-bottom: 10px;
+}
+.info-item i{
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.info-item p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-form{
+    padding: 50px;
+    border-radius: 5px;
+}
+.contact-form p{
+    font-size: 15px;
+}
+input[type = submit] {
+    width: 100%;
+    background-color: #0e9212;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-list label{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.form-list input{
+    text-indent: 0.5rem;
+    padding: 5px;
+}
+.form-list textarea{
+    border-radius: 10px;
+    text-indent: 0.8rem;
+}
+@keyframes place{
+   from {
+      transform: translateX(-100%);
+    }
+    to{
+       transform: translateX(0);
+    }
+}
+section p{
+    font-size: 14px;
+}
+.map-container{
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+footer{
+    /* width: 100.9%; */
+}
+.footer-menu b{
+    line-height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.footer-list i{
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+.footer-list p{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+ul a{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+}
+.footer-list i{
+    color: white;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon a{
+   color: white;
+    /* padding: 8px; */
+}
+.footer-icon i{
+    font-size: 20px;
+    font-weight: 800;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+.accountBtn1{
+    display: none;
+  }
+  .accountBtn2{
+    display: block;
+  }
+  .contact-menu h2{
+    font-size: 20px;
+  }
+  section p{
+    font-size: 12px;
+  }
+  .contain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  .contact-info, .contact-form{
+    margin-bottom: 20px;
+  }
+  .contact-form{
+    padding: 10px 20px 10px 20px;
+  }
+  .contact-info b{
+    font-size: 18px;
+  }
+  .contact-info h4{
+    font-size: 14px;
+  }
+.info-item i{
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+.info-item p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.map-container{
+    width: 100%;
+}
+.iframe{
+    max-height: 300px;
+}
+.footer-text {
+    padding: 10px;
+}
+}
